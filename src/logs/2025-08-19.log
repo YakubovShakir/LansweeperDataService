@@ -1,0 +1,110 @@
+2025-08-19 11:38:56,433 INFO API server STARTED
+2025-08-19 11:38:56,433 INFO Start base migration
+2025-08-19 11:41:07,118 INFO API server STARTED
+2025-08-19 11:41:07,118 INFO Start base migration
+2025-08-19 11:42:29,193 INFO API server STARTED
+2025-08-19 11:42:29,193 INFO Start base migration
+2025-08-19 11:42:50,465 INFO API - handle /start-sync request
+2025-08-19 11:42:50,467 INFO START
+2025-08-19 11:42:50,786 INFO START Synchronization..
+2025-08-19 11:43:41,041 INFO API - handle /hosts-after-date request, date - 2017-09-06 
+2025-08-19 11:43:41,042 ERROR Invalid date format: Invalid isoformat string: '2017-09-06 '
+2025-08-19 11:43:45,565 INFO API - handle /hosts-after-date request, date - 2017-09-06
+2025-08-19 11:43:45,931 ERROR Error in handlers.py -> get_host_after_timestamp: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-08-19 11:43:45,932 ERROR Error fetching hosts by date: 500: Internal Server Error: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-08-19 11:44:01,523 INFO Synchronization COMPLETED. Added 2454 servers in service database
+2025-08-19 11:44:01,555 INFO END
+2025-08-19 11:44:03,814 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 11:44:03,814 ERROR Invalid date format: Invalid isoformat string: '2017-09-06 00:00:00'
+2025-08-19 11:44:42,829 INFO API - handle /hosts-after-date request, date - 2017-09-06
+2025-08-19 11:44:43,002 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000002CC9CBE1010>
+2025-08-19 11:44:43,080 ERROR Error in handlers.py -> get_host_after_timestamp: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-08-19 11:44:43,082 ERROR Error fetching hosts by date: 500: Internal Server Error: '>=' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-08-19 11:48:07,883 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 11:48:08,321 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:48:08,323 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:48:24,833 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 11:48:25,076 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:48:25,078 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:48:30,399 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 11:48:30,599 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:48:30,601 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:50:43,745 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 11:50:43,922 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 11:50:43,924 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 12:00:10,542 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 12:00:10,732 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 12:00:10,734 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 12:00:20,558 INFO API - handle /hosts-after-date request, date - 2017-09-06 00:00:00
+2025-08-19 12:00:20,744 ERROR Error in handlers.py -> get_host_after_timestamp: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Yakubov\Documents\Development\LansweeperDataService\src\api\handlers.py", line 38, in get_host_after_timestamp
+    if first_seen_date >= date_param:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-08-19 12:00:20,745 ERROR Error fetching hosts by date: 500: Internal Server Error: can't compare offset-naive and offset-aware datetimes
+2025-08-19 12:02:54,970 INFO API server STARTED
+2025-08-19 12:02:54,971 INFO Start base migration
+2025-08-19 12:05:09,954 INFO API server STARTED
+2025-08-19 12:05:09,954 INFO Start base migration
+2025-08-19 12:05:30,300 INFO API - handle /hosts-after-date request, date - 2025-10-10 00:00:00
+2025-08-19 12:06:03,796 INFO API - handle /hosts-after-date request, date - 2025-01-10 00:00:00
+2025-08-19 12:07:55,257 INFO API - handle /hosts request
+2025-08-19 12:12:04,562 INFO API - handle /start-sync request
+2025-08-19 12:12:04,577 INFO START
+2025-08-19 12:12:04,708 INFO START Synchronization..
+2025-08-19 12:12:12,280 INFO Synchronization COMPLETED. Added 0 servers in service database
+2025-08-19 12:12:12,312 INFO END
+2025-08-19 12:12:34,134 INFO API - handle /hosts request
+2025-08-19 12:12:34,366 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x0000016A244E1D30>
+2025-08-19 12:14:08,731 INFO API server STARTED
+2025-08-19 12:14:08,734 INFO Start base migration
+2025-08-19 12:15:04,617 INFO API - handle /hosts request
+2025-08-19 12:22:46,640 INFO API server STARTED
+2025-08-19 12:22:46,650 INFO Start base migration
+2025-08-19 12:23:01,615 INFO API - handle /hosts request
+2025-08-19 12:26:14,139 INFO API - handle /hosts request
+2025-08-19 12:26:46,089 INFO API - handle /hosts-after-date request, date - 2025-08-15 00:00:00
+2025-08-19 12:26:54,244 INFO API - handle /hosts-after-date request, date - 2025-08-10 00:00:00
+2025-08-19 12:27:16,827 INFO API - handle /hosts-after-date request, date - 2025-08-10 00:00:00
+2025-08-19 12:27:20,718 INFO API - handle /hosts-after-date request, date - 2025-08-10 00:00:00
+2025-08-19 12:27:52,745 INFO API server STARTED
+2025-08-19 12:27:52,746 INFO Start base migration
+2025-08-19 12:28:00,116 INFO API - handle /hosts-after-date request, date - 2025-08-10 00:00:00

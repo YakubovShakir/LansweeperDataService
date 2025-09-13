@@ -1,0 +1,213 @@
+2025-08-07 13:31:09,742 INFO Lansweeper database connected
+2025-08-07 13:31:10,021 INFO Service database connected
+2025-08-07 13:31:10,022 INFO Synchronization..
+2025-08-07 13:31:12,841 INFO Synchronization completed
+2025-08-07 13:31:12,852 INFO Database connections closed
+2025-08-07 13:32:04,648 INFO Lansweeper database connected
+2025-08-07 13:32:04,936 INFO Service database connected
+2025-08-07 13:32:04,936 INFO Start Synchronization..
+2025-08-07 13:32:07,210 INFO Synchronization completed
+2025-08-07 13:32:07,224 INFO Database connections closed
+2025-08-07 13:33:04,881 INFO Lansweeper database CONNECTED
+2025-08-07 13:33:05,168 INFO Service database CONNTECTED
+2025-08-07 13:33:05,169 INFO START Synchronization..
+2025-08-07 13:33:08,501 INFO Synchronization COMPLETED
+2025-08-07 13:33:08,516 INFO Database connections CLOSED
+2025-08-07 13:33:56,212 INFO START
+2025-08-07 13:33:56,555 INFO Lansweeper database CONNECTED
+2025-08-07 13:33:56,852 INFO Service database CONNTECTED
+2025-08-07 13:33:56,852 INFO START Synchronization..
+2025-08-07 13:33:59,818 INFO Synchronization COMPLETED
+2025-08-07 13:33:59,836 INFO Database connections CLOSED
+2025-08-07 13:33:59,836 INFO END
+2025-08-07 14:06:53,101 INFO START
+2025-08-07 14:06:53,550 INFO Lansweeper database CONNECTED
+2025-08-07 14:06:53,833 INFO Service database CONNTECTED
+2025-08-07 14:06:53,901 INFO START Synchronization..
+2025-08-07 14:06:56,658 INFO Synchronization COMPLETED. Added 1 servers in service database
+2025-08-07 14:06:56,672 INFO Database connections CLOSED
+2025-08-07 14:06:56,672 INFO END
+2025-08-07 14:33:54,393 INFO START
+2025-08-07 14:33:54,847 INFO Lansweeper database CONNECTED
+2025-08-07 14:33:55,142 INFO Service database CONNTECTED
+2025-08-07 14:33:55,142 INFO START Synchronization..
+2025-08-07 14:33:57,769 INFO Synchronization COMPLETED. Added 0 servers in service database
+2025-08-07 14:33:57,793 INFO Database connections CLOSED
+2025-08-07 14:33:57,794 INFO END
+2025-08-07 14:34:31,499 INFO START
+2025-08-07 14:34:31,961 INFO Lansweeper database CONNECTED
+2025-08-07 14:34:32,244 INFO Service database CONNTECTED
+2025-08-07 14:34:32,244 INFO START Synchronization..
+2025-08-07 14:34:34,495 INFO Synchronization COMPLETED. Added 0 servers in service database
+2025-08-07 14:34:34,578 INFO Database connections CLOSED
+2025-08-07 14:34:34,578 INFO END
+2025-08-07 14:36:03,997 INFO START
+2025-08-07 14:36:04,297 INFO Lansweeper database CONNECTED
+2025-08-07 14:36:04,577 INFO Service database CONNTECTED
+2025-08-07 14:36:04,577 INFO START Synchronization..
+2025-08-07 14:36:08,991 INFO Synchronization COMPLETED. Added 0 servers in service database
+2025-08-07 14:36:09,019 INFO Database connections CLOSED
+2025-08-07 14:36:09,019 INFO END
+2025-08-07 14:53:20,054 INFO START
+2025-08-07 14:53:20,635 INFO Lansweeper database CONNECTED
+2025-08-07 14:53:20,929 INFO Service database CONNTECTED
+2025-08-07 14:53:20,929 INFO START Synchronization..
+2025-08-07 14:54:32,643 INFO Synchronization COMPLETED. Added 2442 servers in service database
+2025-08-07 14:54:32,690 INFO Database connections CLOSED
+2025-08-07 14:54:32,690 INFO END
+2025-08-07 16:01:54,947 INFO API server STARTED
+2025-08-07 16:03:19,480 INFO API server STARTED
+2025-08-07 16:04:22,777 INFO handle /start_sync request
+2025-08-07 16:04:22,781 INFO START
+2025-08-07 16:04:23,433 INFO Lansweeper database CONNECTED
+2025-08-07 16:04:23,618 INFO Service database CONNECTED
+2025-08-07 16:04:23,618 INFO START Synchronization..
+2025-08-07 16:04:25,017 ERROR Synchronization FAILED. In functions/sync_data.py: (psycopg2.errors.UndefinedTable) relation "integration_modules.lansweeper_data" does not exist
+LINE 2: FROM integration_modules.lansweeper_data ORDER BY integratio...
+             ^
+
+[SQL: SELECT integration_modules.lansweeper_data.host_id, integration_modules.lansweeper_data.asset_id, integration_modules.lansweeper_data.typename, integration_modules.lansweeper_data.operating_system, integration_modules.lansweeper_data.ou, integration_modules.lansweeper_data.name, integration_modules.lansweeper_data.ip_address, integration_modules.lansweeper_data.mac, integration_modules.lansweeper_data.processor, integration_modules.lansweeper_data.first_seen, integration_modules.lansweeper_data.description, integration_modules.lansweeper_data.manufacturer, integration_modules.lansweeper_data.model, integration_modules.lansweeper_data.serial_number 
+FROM integration_modules.lansweeper_data ORDER BY integration_modules.lansweeper_data.asset_id]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-08-07 16:04:25,043 INFO Database connections CLOSED
+2025-08-07 16:04:25,043 INFO END
+2025-08-07 16:07:06,341 INFO API server STARTED
+2025-08-07 16:07:26,117 INFO handle /start_sync request
+2025-08-07 16:07:26,117 INFO START
+2025-08-07 16:07:26,721 INFO Lansweeper database CONNECTED
+2025-08-07 16:07:26,935 INFO Service database CONNECTED
+2025-08-07 16:07:26,936 INFO START Synchronization..
+2025-08-07 16:09:14,706 INFO Synchronization COMPLETED. Added 2442 servers in service database
+2025-08-07 16:09:14,786 INFO Database connections CLOSED
+2025-08-07 16:09:14,787 INFO END
+2025-08-07 16:43:33,220 INFO API server STARTED
+2025-08-07 16:56:54,564 INFO handle /hosts request
+2025-08-07 16:56:57,381 INFO handle /start_sync request
+2025-08-07 16:56:57,381 INFO START
+2025-08-07 16:56:57,933 INFO Lansweeper database CONNECTED
+2025-08-07 16:56:58,090 INFO Service database CONNECTED
+2025-08-07 16:56:58,090 INFO START Synchronization..
+2025-08-07 17:00:48,322 INFO API - handle /start_sync request
+2025-08-07 17:00:48,323 INFO START
+2025-08-07 17:00:48,813 INFO Lansweeper database CONNECTED
+2025-08-07 17:00:49,002 INFO Service database CONNECTED
+2025-08-07 17:00:49,002 INFO START Synchronization..
+2025-08-07 17:00:49,932 ERROR Synchronization FAILED. In functions/sync_data.py: (psycopg2.errors.UndefinedTable) relation "integration_modules.lansweeper_data" does not exist
+LINE 2: FROM integration_modules.lansweeper_data ORDER BY integratio...
+             ^
+
+[SQL: SELECT integration_modules.lansweeper_data.host_id, integration_modules.lansweeper_data.asset_id, integration_modules.lansweeper_data.typename, integration_modules.lansweeper_data.operating_system, integration_modules.lansweeper_data.ou, integration_modules.lansweeper_data.name, integration_modules.lansweeper_data.ip_address, integration_modules.lansweeper_data.mac, integration_modules.lansweeper_data.processor, integration_modules.lansweeper_data.first_seen, integration_modules.lansweeper_data.description, integration_modules.lansweeper_data.manufacturer, integration_modules.lansweeper_data.model, integration_modules.lansweeper_data.serial_number 
+FROM integration_modules.lansweeper_data ORDER BY integration_modules.lansweeper_data.asset_id]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-08-07 17:00:49,954 INFO Database connections CLOSED
+2025-08-07 17:00:49,954 INFO END
+2025-08-07 19:53:31,372 INFO API - handle /start_sync request
+2025-08-07 19:53:31,372 INFO START
+2025-08-07 19:53:31,423 INFO END
+2025-08-07 19:55:08,008 INFO API - handle /start-sync request
+2025-08-07 19:55:08,008 INFO START
+2025-08-07 19:55:08,378 INFO END
+2025-08-07 19:58:26,402 INFO API - handle /start-sync request
+2025-08-07 19:58:26,402 INFO START
+2025-08-07 19:58:26,479 INFO START Synchronization..
+2025-08-07 19:58:26,479 ERROR Synchronization FAILED. In functions/sync_data.py: ('classes/LansweeperDatabase.py -> LansweeperDatabase.get_assets -> ', KeyError('select'))
+2025-08-07 19:58:26,713 INFO END
+2025-08-07 19:59:40,796 INFO API - handle /start-sync request
+2025-08-07 19:59:40,796 INFO START
+2025-08-07 19:59:40,869 INFO START Synchronization..
+2025-08-07 19:59:40,870 ERROR Synchronization FAILED. In functions/sync_data.py: ('classes/LansweeperDatabase.py -> LansweeperDatabase.get_assets -> ', ArgumentError("Column expression, FROM clause, or other columns clause element expected, got (<class 'src.classes.LansweeperDatabase.tblAssets'>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A678AE0>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A678D60>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A679580>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A679800>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A6798A0>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A67ACA0>, <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000001A33A67A200>)."))
+2025-08-07 19:59:41,106 INFO END
+2025-08-07 20:02:35,751 INFO API - handle /start-sync request
+2025-08-07 20:02:35,751 INFO START
+2025-08-07 20:02:35,839 INFO START Synchronization..
+2025-08-07 20:02:53,407 INFO END
+2025-08-07 20:05:05,226 INFO API - handle /start-sync request
+2025-08-07 20:05:05,226 INFO START
+2025-08-07 20:05:05,292 INFO START Synchronization..
+2025-08-07 20:06:53,812 INFO API - handle /start-sync request
+2025-08-07 20:06:53,812 INFO START
+2025-08-07 20:06:53,892 INFO START Synchronization..
+2025-08-07 20:06:54,984 ERROR Synchronization FAILED. In functions/sync_data.py: 'AssetName'
+2025-08-07 20:06:55,019 INFO END
+2025-08-07 20:16:05,856 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x0000021217AEF4D0>
+2025-08-07 20:16:22,153 INFO API - handle /start-sync request
+2025-08-07 20:16:22,153 INFO START
+2025-08-07 20:16:22,269 INFO START Synchronization..
+2025-08-07 20:16:23,404 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset() -'AssetID'
+2025-08-07 20:16:23,439 INFO END
+2025-08-07 20:18:59,335 INFO API - handle /start-sync request
+2025-08-07 20:18:59,336 INFO START
+2025-08-07 20:18:59,411 INFO START Synchronization..
+2025-08-07 20:19:00,463 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'tblAssets': <src.classes.LansweeperDatabase.tblAssets object at 0x000002132149F230>, 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:19:00,525 INFO END
+2025-08-07 20:21:09,330 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000002132149F4D0>
+2025-08-07 20:22:16,837 INFO API - handle /start-sync request
+2025-08-07 20:22:16,838 INFO START
+2025-08-07 20:22:16,915 INFO START Synchronization..
+2025-08-07 20:22:33,502 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'tblAssets': <src.classes.LansweeperDatabase.tblAssets object at 0x000001F8CB5BB230>, 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:22:33,651 INFO END
+2025-08-07 20:22:33,941 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000001F8CB5BB4D0>
+2025-08-07 20:24:34,252 INFO API - handle /start-sync request
+2025-08-07 20:24:34,253 INFO START
+2025-08-07 20:24:34,323 INFO START Synchronization..
+2025-08-07 20:24:35,289 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'tblAssets': <src.classes.LansweeperDatabase.tblAssets object at 0x000002A61581B230>, 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:24:35,325 INFO END
+2025-08-07 20:28:51,193 INFO API - handle /start-sync request
+2025-08-07 20:28:51,193 INFO START
+2025-08-07 20:28:51,259 INFO START Synchronization..
+2025-08-07 20:28:52,414 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'asset_id': 51, 'asset_name': 'HQSUB112', 'asset_type': -1, 'ip_address': '91.205.224.146', 'mac': '00:17:A4:77:00:B4', 'processor': 'Intel Xeon CPU X5670 @ 2.93GHz', 'first_seen': datetime.datetime(2011, 10, 13, 19, 3, 18, 857000), 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:28:52,471 INFO END
+2025-08-07 20:32:08,621 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000001E058D5F4D0>
+2025-08-07 20:32:52,800 INFO API - handle /start-sync request
+2025-08-07 20:32:52,800 INFO START
+2025-08-07 20:32:52,876 INFO START Synchronization..
+2025-08-07 20:33:15,734 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'asset_id': 51, 'asset_name': 'HQSUB112', 'asset_type': -1, 'ip_address': '91.205.224.146', 'mac': '00:17:A4:77:00:B4', 'processor': 'Intel Xeon CPU X5670 @ 2.93GHz', 'first_seen': datetime.datetime(2011, 10, 13, 19, 3, 18, 857000), 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:33:15,855 INFO END
+2025-08-07 20:33:16,122 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000001E735B2B4D0>
+2025-08-07 20:37:06,557 INFO API - handle /start-sync request
+2025-08-07 20:37:06,557 INFO START
+2025-08-07 20:37:06,654 INFO START Synchronization..
+2025-08-07 20:37:08,127 ERROR Synchronization FAILED. In functions/sync_data.py: failed map_asset.py -asset: {'asset_id': 51, 'asset_name': 'HQSUB112', 'type': -1, 'ip_address': '91.205.224.146', 'mac': '00:17:A4:77:00:B4', 'processor': 'Intel Xeon CPU X5670 @ 2.93GHz', 'first_seen': datetime.datetime(2011, 10, 13, 19, 3, 18, 857000), 'description': None, 'ou': 'OU=Servers,DC=alc,DC=local', 'manufacturer': 'Hewlett-Packard', 'model': 'ProLiant BL460c G7', 'serial_number': 'CZJ1160KZ9', 'asset_typename': 'Windows', 'operating_system': 'Microsoft Windows Server 2012 R2 Standard'}'AssetID'
+2025-08-07 20:37:08,207 INFO END
+2025-08-07 20:40:32,769 INFO API - handle /start-sync request
+2025-08-07 20:40:32,769 INFO START
+2025-08-07 20:40:32,837 INFO START Synchronization..
+2025-08-07 20:40:33,761 ERROR Synchronization FAILED. In functions/sync_data.py: Unconsumed column names: type
+2025-08-07 20:40:33,831 INFO END
+2025-08-07 20:42:44,305 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x000001DEBDC3B4D0>
+2025-08-07 20:42:59,396 INFO API - handle /start-sync request
+2025-08-07 20:42:59,396 INFO START
+2025-08-07 20:42:59,485 INFO START Synchronization..
+2025-08-07 20:44:17,505 INFO Synchronization COMPLETED. Added 2442 servers in service database
+2025-08-07 20:44:17,540 INFO END
+2025-08-07 20:47:45,590 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x0000024203C6F4D0>
+2025-08-07 20:54:32,337 INFO API - handle /start-sync request
+2025-08-07 20:54:32,337 INFO START
+2025-08-07 20:54:32,433 INFO START Synchronization..
+2025-08-07 20:55:54,492 INFO Synchronization COMPLETED. Added 2442 servers in service database
+2025-08-07 20:55:54,523 INFO END
+2025-08-07 21:03:00,826 INFO API - handle /hosts request
+2025-08-07 21:03:04,665 INFO API - handle /hosts-after-timestam request, timestamp - 1584215745
+2025-08-07 21:04:22,596 INFO API - handle /hosts-after-timestam request, timestamp - 1584215745
+2025-08-07 21:05:22,173 INFO API - handle /hosts-after-timestam request, timestamp - 1584215745
+2025-08-07 21:05:32,412 INFO API - handle /hosts-after-timestam request, timestamp - 1684215745
+2025-08-07 21:05:38,353 INFO API - handle /hosts-after-timestam request, timestamp - 1984215745
+2025-08-07 21:05:41,447 INFO API - handle /hosts-after-timestam request, timestamp - 1884215745
+2025-08-07 21:05:46,902 INFO API - handle /hosts-after-timestam request, timestamp - 1804215745
+2025-08-07 21:05:51,013 INFO API - handle /hosts-after-timestam request, timestamp - 1754215745
+2025-08-07 21:06:01,739 INFO API - handle /hosts-after-timestam request, timestamp - 1755215745
+2025-08-07 21:06:08,429 INFO API - handle /hosts-after-timestam request, timestamp - 1752215745
+2025-08-07 21:06:15,948 INFO API - handle /hosts-after-timestam request, timestamp - 1753215745
+2025-08-07 21:06:26,412 INFO API - handle /hosts-after-timestam request, timestamp - 1754215745
+2025-08-07 21:07:35,024 INFO API - handle /start-sync request
+2025-08-07 21:07:35,024 INFO START
+2025-08-07 21:07:35,099 INFO START Synchronization..
+2025-08-07 21:08:55,388 INFO Synchronization COMPLETED. Added 2442 servers in service database
+2025-08-07 21:08:55,412 INFO END

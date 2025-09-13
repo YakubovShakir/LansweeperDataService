@@ -1,0 +1,39 @@
+2025-08-11 14:32:59,448 INFO API server STARTED
+2025-08-11 14:34:23,212 INFO API server STARTED
+2025-08-11 14:34:23,212 INFO Start base migration
+2025-08-11 14:35:57,169 INFO API server STARTED
+2025-08-11 14:35:57,170 INFO Start base migration
+2025-08-11 14:37:49,163 INFO API server STARTED
+2025-08-11 14:37:49,163 INFO Start base migration
+2025-08-11 14:39:45,102 INFO API server STARTED
+2025-08-11 14:39:45,102 INFO Start base migration
+2025-08-11 14:40:05,653 INFO API server STARTED
+2025-08-11 14:40:05,654 INFO Start base migration
+2025-08-11 14:40:25,720 INFO API server STARTED
+2025-08-11 14:40:25,720 INFO Start base migration
+2025-08-11 14:41:29,589 INFO API server STARTED
+2025-08-11 14:41:29,589 INFO Start base migration
+2025-08-11 14:41:44,854 INFO API - handle /start-sync request
+2025-08-11 14:41:44,854 INFO START
+2025-08-11 14:41:45,273 INFO START Synchronization..
+2025-08-11 14:43:04,335 INFO Synchronization COMPLETED. Added 2430 servers in service database
+2025-08-11 14:43:04,361 INFO END
+2025-08-11 14:43:04,514 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x0000020070E95D30>
+2025-08-11 14:44:02,307 INFO API server STARTED
+2025-08-11 14:44:02,308 INFO Start base migration
+2025-08-11 14:44:13,758 INFO API - handle /start-sync request
+2025-08-11 14:46:54,873 INFO API - handle /start-sync request
+2025-08-11 14:46:54,879 INFO START
+2025-08-11 14:46:54,998 INFO START Synchronization..
+2025-08-11 14:48:09,866 INFO Synchronization COMPLETED. Added 2430 servers in service database
+2025-08-11 14:48:09,900 INFO END
+2025-08-11 14:50:46,024 ERROR Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x0000023A91585400>
+2025-08-11 14:51:27,301 INFO API server STARTED
+2025-08-11 14:51:27,301 INFO Start base migration
+2025-08-11 17:12:41,516 INFO API server STARTED
+2025-08-11 17:12:41,519 INFO Start base migration
+2025-08-11 17:12:57,758 INFO API - handle /hosts request
+2025-08-11 17:40:12,584 INFO API server STARTED
+2025-08-11 17:40:12,584 INFO Start base migration
