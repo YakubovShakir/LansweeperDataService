@@ -1,8 +1,0 @@
-2025-08-08 10:40:34,005 INFO API - handle /host, host - 
-2025-08-08 15:30:35,688 INFO API - handle /start-sync request
-2025-08-08 15:30:35,688 INFO START
-2025-08-08 15:30:35,786 INFO START Synchronization..
-2025-08-08 15:30:39,198 INFO Synchronization COMPLETED. Added 3 servers in service database
-2025-08-08 15:30:39,224 INFO END
-2025-08-08 17:46:51,737 ERROR Unclosed connection
-connection: <aioodbc.connection.Connection object at 0x0000014D0D35AF90>
