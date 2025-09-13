@@ -1,0 +1,8 @@
+2025-09-11 16:58:39,607 INFO Database connection initialized successfully
+2025-09-11 16:58:39,859 INFO Database connection initialized successfully
+2025-09-11 16:58:39,859 INFO Application started - database initialized
+2025-09-11 16:58:57,976 ERROR Database error in select query : (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column lansweeper_data.id does not exist
+[SQL: SELECT integration_modules.lansweeper_data.id, integration_modules.lansweeper_data.created_at, integration_modules.lansweeper_data.updated_at, integration_modules.lansweeper_data.asset_id, integration_modules.lansweeper_data.typename, integration_modules.lansweeper_data.operating_system, integration_modules.lansweeper_data.ou, integration_modules.lansweeper_data.name, integration_modules.lansweeper_data.ip_address, integration_modules.lansweeper_data.mac, integration_modules.lansweeper_data.processor, integration_modules.lansweeper_data.first_seen, integration_modules.lansweeper_data.description, integration_modules.lansweeper_data.manufacturer, integration_modules.lansweeper_data.model, integration_modules.lansweeper_data.serial_number, integration_modules.lansweeper_data.detected, integration_modules.lansweeper_data.custom_fields 
+FROM integration_modules.lansweeper_data]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-09-11 17:00:09,810 INFO Application shutting down
